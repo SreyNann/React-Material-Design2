@@ -1,0 +1,20 @@
+#root {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.5rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
